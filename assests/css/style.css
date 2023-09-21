@@ -218,7 +218,6 @@ body{
   text-decoration: none;
 }
 
-
 .ingresso__btn:hover{
   cursor: pointer;
   filter: drop-shadow(0 0 2px rgb(60, 191, 175)) drop-shadow(0 0 10px rgb(60, 191, 175)) contrast(2) brightness(2);
@@ -398,5 +397,47 @@ form div {
 .desc__foto{
   color: #798596;
   padding-top: 6px;
+}
+
+.mapa__show__content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mapa__show__iframe{
+  height: 200px;
+  padding: 0 40px 0 0;
+}
+
+.setores__mapa__item {
+  margin-bottom: 500px;
+}
+
+.mapa__show__descricao{
+  text-align: center;
+  padding: 20px 0;
+  word-spacing: 3px;
+}
+
+.setores__mapa__item{
+  text-align: center;
+}
+
+.setores__mapa__item p{
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.titulo__item{
+  padding: 10px 0 20px 0;
+  font-size: 28px;
+  background: -webkit-linear-gradient(#ff275e, #4b39c8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
 }
 

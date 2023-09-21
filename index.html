@@ -53,7 +53,7 @@
 
     <section class="lineup" id="bandas">
       <div class="lineup__conteudo">
-        <div class="lineup__card"">
+        <div class="lineup__card">
           <h2 class="lineup__title">Day One</h2>
           <div>
             <img class="lineup__img" src="./assests/img/img-band-guns-n-roses.png" alt="Logo Banda Guns N' Roses">
@@ -66,7 +66,7 @@
           </div>
         </div>
   
-        <div class="lineup__card"">
+        <div class="lineup__card">
           <h2 class="lineup__title">Day Two</h2>
           <div>
             <img class="lineup__img" src="./assests/img/img-band-metallica.png" alt="Logo Banda Metallica">
@@ -79,7 +79,7 @@
           </div>
         </div>
   
-        <div class="lineup__card"">
+        <div class="lineup__card">
           <h2 class="lineup__title">Day Three</h2>
           <div>
             <img class="lineup__img" src="./assests/img/img-band-iron-maiden.png" alt="Logo Banda Metallica">
@@ -119,6 +119,30 @@
           <button class="ingresso__btn"><a href="https://www.ingresso.com/" target="_blank" rel="noopener noreferrer">Comprar</a></button>
         </div>
       </div>
+    </section>
+
+    <section class="mapa__show">
+
+      <div class="mapa__show__content">
+        <iframe class="mapa__show__iframe" src="./mapa.html" frameborder="0" name="janela" scrolling="no"></iframe>
+        <div>
+          <figure class="mapa__show__img">
+            <img src="./assests/img/mapa-do-palco.png" alt="Mapa de setores do show" usemap="#mapaDoShow">
+          </figure>
+          
+          <map name="mapaDoShow">
+            <area shape="rect" coords="195,450,490,558" href="./mapa.html#setor__premium" alt="Setor Pista Premium" title="Pista Premium" target="janela">
+            <area shape="rect" coords="212,244,465,409" href="./mapa.html#setor__pista" alt="Setor Pista" title="Pista" target="janela">
+            <area shape="poly" coords="528,208,592,358,587,541,515,560,545,378,483,242" href="./mapa.html#setor__cadeira__infLeste" alt="Setor Cadeira Inferior Leste" title="Cadeira Inferior Leste" target="janela">
+            <area shape="poly" coords="208,244,145,294,169,557,102,548,92,370,163,200" href="./mapa.html#setor__cadeira__infOeste" alt="Setor Cadeira Inferior Oeste" title="Cadeira Inferior Oeste" target="janela">
+            <area shape="poly" coords="580,138,670,310,676,533,590,548,620,419,583,270,522,177" href="./mapa.html#setor__cadeira__supLeste" alt="Cadeira Superior Leste" title="Cadeira Superior Leste" target="janela">
+            <area shape="poly" coords="169,181,103,284,74,411,93,547,13,537,12,373,48,242,109,135" href="./mapa.html#setor__cadeira__supOeste" alt="Cadeira Superior Oeste" title="Cadeira Superior Oeste" target="janela">
+            <area shape="poly" coords="176,194,281,119,406,118,523,201,475,242,390,183,298,179,216,238" href="./mapa.html#setor__cadeira__infNorte" alt="Cadeira Inferior Norte" title="Cadeira Inferior Norte" target="janela">
+            <area shape="poly" coords="107,127,261,20,437,23,574,125,515,178,400,104,280,106,173,179" href="./mapa.html#setor__cadeira__supNorte" alt="Cadeira Superior Norte" title="Cadeira Superior Norte" target="janela">
+          </map>
+        </div>
+      </div>
+
     </section>
 
     <section class="video">
