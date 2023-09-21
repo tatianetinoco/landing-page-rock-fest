@@ -1,6 +1,9 @@
-# Desafio Projeto Landpage - Descodificadas 2023
+# :star: Projeto Landing page | Desenvolvimento Web Full Stack - Descodificadas 2023
 
-### Criar uma landpage usando HTML, CSS e JavaScript com itens obrigatórios:
+### :pushpin: Trilha 01
+
+### Desafio: Projeto Landing page usando HTML, CSS e JavaScript
+### Itens obrigatórios:
 
 - Logo
 - Menu
@@ -10,5 +13,11 @@
 - Galeria com imagens com descrição (pelo menos 3 imagens)
 - Vídeo
 - Mapa de localização
-- Formulário para coletar cadastro
-- Rodapé com a frase criado por "seunome" - apenas para fins didáticos
+- Formulário de cadastro
+- Rodapé com a frase criado por "seunome" (para fins didáticos)
+
+### :pushpin: Trilha 02
+### Incluir Itens Propostos No Módulo:
+- Meta Tags SEO
+- Imagem svg
+- Mapa de imagem
