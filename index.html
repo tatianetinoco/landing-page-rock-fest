@@ -23,9 +23,15 @@
           <li class="header__menu__link"><a href="#home">Home</a></li>
           <li class="header__menu__link"><a href="#bandas">Line-Up</a></li>
           <li class="header__menu__link"><a href="#ingressos">Ingressos</a></li>
-          <li class="header__menu__link"><a href="#local">Local</a></li>
-          <li class="header__menu__link"><a href="#contato">Contato</a></li>
-          <li class="header__menu__link"><a href="#fotos">Galeria</a></li>
+          <div class="dropdown">
+            <li class="header__menu__link" ><a class="drop__menu" href="#">Explore +</a></li>
+            <div class="dropdown-content">
+              <li class="drop__menu__itens"><a href="#local">Local</a></li>
+              <li class="drop__menu__itens"><a href="#mapa">Mapa Do Show</a></li>
+              <li class="drop__menu__itens"><a href="#fotos">Galeria</a></li>
+              <li class="drop__menu__itens"><a href="#contato">Contato</a></li>
+            </div>
+          </div>
         </ul>
       </nav>
     </section>
@@ -121,7 +127,7 @@
       </div>
     </section>
 
-    <section class="mapa__show">
+    <section id="mapa" class="mapa__show">
 
       <div class="mapa__show__content">
         <iframe class="mapa__show__iframe" src="./mapa.html" frameborder="0" name="janela" scrolling="no"></iframe>
