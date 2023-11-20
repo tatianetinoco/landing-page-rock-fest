@@ -1,3 +1,5 @@
+
+// SLIDE
 var myIndex = 0;
 carousel();
 
@@ -13,3 +15,10 @@ function carousel() {
   setTimeout(carousel, 4000); // Change image every 2 seconds
 }
 
+
+// MENU 
+
+function mostrarMenu() {
+  var menu = document.getElementById("menu");
+  menu.classList.toggle("menu-show");
+}

@@ -59,6 +59,17 @@ body{
   text-decoration: overline 5px;
 }
 
+.menu__content{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-icon{
+  font-size: 35px;
+  color: #ff275d; 
+} 
+
 /* Dropdown */
 
 .drop__menu{

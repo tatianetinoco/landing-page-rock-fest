@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assests/css/responsive.css">
   <link rel="stylesheet" href="./assests/css/style.css">
   <script src="./assests/js/script.js" defer></script>
   <meta name='description' content='O Maior Festival De Rock Do País'>
@@ -18,26 +19,29 @@
         <a href="./index.html"><img class="logo__img" src="./assests/img/logotipo.png" alt="logotipo"></a>
       </div>
 
-      <nav class="header__menu">
-        <ul class="header_links">
-          <li class="header__menu__link"><a href="#home">Home</a></li>
-          <li class="header__menu__link"><a href="#bandas">Line-Up</a></li>
-          <li class="header__menu__link"><a href="#ingressos">Ingressos</a></li>
-          <div class="dropdown">
-            <li class="header__menu__link" ><a class="drop__menu" href="#">Explore +</a></li>
-            <div class="dropdown-content">
-              <li class="drop__menu__itens"><a href="#local">Local</a></li>
-              <li class="drop__menu__itens"><a href="#mapa">Mapa Do Show</a></li>
-              <li class="drop__menu__itens"><a href="#fotos">Galeria</a></li>
-              <li class="drop__menu__itens"><a href="#contato">Contato</a></li>
+      <div class="menu__content">
+        <nav id="menu" class="header__menu menu-show">
+          <ul class="header_links">
+            <li class="header__menu__link"><a href="#home">Home</a></li>
+            <li class="header__menu__link"><a href="#bandas">Line-Up</a></li>
+            <li class="header__menu__link"><a href="#ingressos">Ingressos</a></li>
+            <div class="dropdown">
+              <li class="header__menu__link" ><a class="drop__menu" href="#">Explore &#9660;</a></li>
+              <div class="dropdown-content">
+                <li class="drop__menu__itens"><a href="#local">Local</a></li>
+                <li class="drop__menu__itens"><a href="#mapa">Mapa Do Show</a></li>
+                <li class="drop__menu__itens"><a href="#fotos">Galeria</a></li>
+                <li class="drop__menu__itens"><a href="#contato">Contato</a></li>
+              </div>
             </div>
-          </div>
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+        <div class="menu-icon" onclick="mostrarMenu()">&#9776;</div>
+      </div>
     </section>
 
     <section class="header__title">
-      <h1>
+      <h1 id="titulo">
         Rock Fest
       </h1>
     </section>
