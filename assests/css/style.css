@@ -139,7 +139,7 @@ body{
 }
 
 .w3-content {
-  padding: 50px 0;
+  padding: 0 0 80px;
   width: 100%;
   margin: 0 auto;
 }
@@ -150,6 +150,7 @@ body{
   font-size: 50px;
   padding: 80px 0;
   font-family: 'Titan One', cursive;
+  text-align: center;
 }
 
 .intro__texto p{
@@ -159,7 +160,7 @@ body{
 
 .lineup{
   display: flex;
-  padding: 60px 0;
+  padding: 0 10px 80px 10px;
   background-color: #010e22;
 }
 
@@ -175,7 +176,7 @@ body{
 
 .lineup__card{
   background-color: rgb(17, 29, 43);
-  width: 380px;
+  max-width: 380px;
   padding-bottom: 10px;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(0, 0, 0, 0.281) 0px 2px 16px 0px;
 }
@@ -504,7 +505,7 @@ form div {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, ifr);
   max-width: 1000px;
-  padding: 0 0 50px;
+  padding: 0 10px 80px 10px;
   margin: 0 auto;
   gap: 5px;
 }
@@ -513,7 +514,13 @@ form div {
  width: 100%;
  height: 100%;
  object-fit: cover;
+ transition: all 0.3s;
 }
+
+.grid__gallery__img:hover{
+  outline: 3px solid #4b39c8;
+  outline-offset: -3px; 
+ }
 
 .item4 {
   grid-column-start: 2;
